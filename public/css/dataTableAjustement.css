@@ -1,0 +1,23 @@
+.pagination {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+}
+.paginate_button{
+    border: #d2d2d2 1px solid;
+    padding: 1px 2px;
+    color: #045bfc;
+    cursor: pointer;
+}
+
+.paginate_button.page-item.disabled a{
+    color: #d2d2d2;
+}
+.paginate_button.page-item.active{
+    background: #3071E7;
+}
+div.dataTables_wrapper div.dataTables_filter input,div.dataTables_wrapper div.dataTables_length select{
+    border: 1px solid #045bfc;
+    padding: 0.25rem;
+    border-radius: 3px;
+}

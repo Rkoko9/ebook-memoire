@@ -1,0 +1,18 @@
+{
+    "name": "obang/gestion-plaintes",
+    "autoload": {
+        "psr-4": {
+            "Obang\\GestionPlaintes\\": "src/",
+            "App\\":"app/",
+            "Database\\":"database/",
+            "Router\\":"routers/"
+        }
+    },
+    "authors": [
+        {
+            "name": "NSocrate",
+            "email": "ngabombilizi@gmail.com"
+        }
+    ],
+    "require": {}
+}
